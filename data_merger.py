@@ -25,7 +25,7 @@ def merge_files(file_2023, file_2024):
     valid_time_2023 = file_2023_nc.variables['valid_time'][:]
     valid_time_2024 = file_2024_nc.variables['valid_time'][:]
 
-    var_name = 'swh'
+    var_name = 'shww'
     temperature_2023 = file_2023_nc.variables[var_name][:]
     temperature_2024 = file_2024_nc.variables[var_name][:]
 
